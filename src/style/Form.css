@@ -1,0 +1,53 @@
+.form{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.form_container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 1rem;
+}
+
+.form_container input{
+    height: 2.5rem;
+    width: 24rem;
+}
+
+.form_container textarea{
+    width: 24rem;
+}
+
+.form_btn{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #cba674;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+.form_btn:hover{
+    background-color:white;
+    color: black;
+    border: 1px solid #cba674; 
+    transition: 0.5s;
+}
+
+@media(max-width:390px) {
+    .form_container input{
+
+        width: 20rem;
+    }
+    
+    .form_container textarea{
+        width: 20rem;
+    }
+
+}

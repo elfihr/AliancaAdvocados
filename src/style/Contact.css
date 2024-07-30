@@ -1,0 +1,41 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    margin-top: 1rem;
+    background-color: #122035;
+}
+
+.contact h3,
+.contact p{
+    color: white;
+}
+
+.contact_wrapper{
+    margin: 2rem 0;
+    display: grid;
+    gap:4rem;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_container i{
+    font-size: 2rem;
+    color: var(--color-golden);
+}
+
+.contact_type{
+    font-size: white;
+}
+
+@media(max-width:940px){
+    .contact_wrapper{
+    grid-template-columns: repeat(1,1fr);
+}
+}
