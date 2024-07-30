@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='logoContainer'>
                 <i class="fa-solid fa-gavel"></i>
                 <div>
-                    <p>C&OJustiça</p>
+                    <p>EscritorioAdvocacia</p>
                     <p>AliançadosAdvocados</p>
                 </div>
             </div>

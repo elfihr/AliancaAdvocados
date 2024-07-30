@@ -43,11 +43,11 @@
 @media(max-width:390px) {
     .form_container input{
 
-        width: 20rem;
+        width: 18rem;
     }
     
     .form_container textarea{
-        width: 20rem;
+        width: 18rem;
     }
 
 }
