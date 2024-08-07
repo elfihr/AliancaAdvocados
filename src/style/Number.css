@@ -1,6 +1,6 @@
 /*config for parallax*/
 .number {
-    background-image: url('../assets/numbers.jpg');
+    background-image: url('../assets/numbers.webp');
     min-height: 60vh;
 }
 

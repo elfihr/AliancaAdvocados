@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/About.css'
 import { checks } from '../helper/helper'
-import aboutImg from '../assets/about01.png'
+import aboutImg from '../assets/about01.webp'
 
 const About = () => {
     return (

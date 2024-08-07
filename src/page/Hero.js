@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from '../assets/hero.jpg'
+import Background from '../assets/hero.webp'
 import '../style/Hero.css'
 import { heroIntro } from '../helper/helper'
 

@@ -1,10 +1,10 @@
-import client02 from '../assets/testimonials/client02.jpg'
-import client03 from '../assets/testimonials/client03.jpg'
-import client04 from '../assets/testimonials/client04.jpg'
+import client02 from '../assets/testimonials/client02.webp'
+import client03 from '../assets/testimonials/client03.webp'
+import client04 from '../assets/testimonials/client04.webp'
 
-import team01 from '../assets/team/team01.jpg'
-import team02 from '../assets/team/team02.jpg'
-import team03 from '../assets/team/team03.jpg'
+import team01 from '../assets/team/team01.webp'
+import team02 from '../assets/team/team02.webp'
+import team03 from '../assets/team/team03.webp'
 
 
 export const heroIntro = [
