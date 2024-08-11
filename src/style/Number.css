@@ -11,6 +11,9 @@
     background-repeat: no-repeat;
     background-color: fixed;
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .number_wrapper{
@@ -42,6 +45,8 @@
     /*desatiba parallax*/
     .number {
         background-attachment: scroll;
+        height: auto;
+        padding: 3rem 0;
     }
 }
 
