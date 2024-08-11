@@ -16,10 +16,10 @@ const Team = () => {
                             <h5>{team.name}</h5>
                             <p>{team.prof}</p>
                             <div className='team_SocialMedia'>
-                                <i class="fa-brands fa-facebook"></i>
-                                <i class="fa-brands fa-x-twitter"></i>
-                                <i class="fa-brands fa-linkedin"></i>
-                                <i class="fa-brands fa-youtube"></i>
+                                <i className="fa-brands fa-facebook"></i>
+                                <i className="fa-brands fa-x-twitter"></i>
+                                <i className="fa-brands fa-linkedin"></i>
+                                <i className="fa-brands fa-youtube"></i>
                             </div>
                         </div>
                     )

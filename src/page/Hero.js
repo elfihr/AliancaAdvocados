@@ -11,7 +11,7 @@ const Hero = () => {
                     <p >Aliança de Advogados</p>
                     <h3>Seu aliado legal em todas as circunstâncias.</h3>
                     <p className='hero_description'>Tratamos cada caso com a atenção e o cuidado que ele merece,<br /> desenvolvendo estratégias personalizadas para garantir o melhor resultado.</p>
-                    <a href='/about' className='btnHero'><i class="fa-brands fa-whatsapp"></i>Entre em Contato</a>
+                    <a href='/about' className='btnHero'><i className="fa-brands fa-whatsapp"></i>Entre em Contato</a>
                 </div>
                 <div className='heroIntro_Wrapper'>
                     {heroIntro.map((intro, index) => {

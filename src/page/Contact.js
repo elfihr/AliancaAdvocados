@@ -10,21 +10,21 @@ const Contact = () => {
       <div className='contact_wrapper'>
 
         <div className='contact_container'>
-          <i class="fa-solid fa-location-dot"></i>
+          <i className="fa-solid fa-location-dot"></i>
           <h3 className='contact_type'>Endereço</h3>
           <p>Avenida Paulista nº1449</p>
           <p>São Paulo - SP</p>
         </div>
 
         <div className='contact_container'>
-        <i class="fa-solid fa-phone"></i>
+        <i className="fa-solid fa-phone"></i>
           <h3 className='contact_type'>Telefone</h3>
           <p>+55 11 2109-XXXX</p>
           <p>+55 11 9 9277-XXXX</p>
         </div>
 
         <div className='contact_container'>
-          <i class="fa-solid fa-location-dot"></i>
+          <i className="fa-solid fa-location-dot"></i>
           <h3 className='contact_type'>E-Mail</h3>
           <p>aliancaadvocados@advocados.com</p>
           <p>saopauloalianca@advocados.com</p>

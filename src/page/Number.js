@@ -10,7 +10,7 @@ const Number = () => {
             <div className='number_wrapper'>
                 {number.map((number, index) => {
                     return (
-                        <div className='number_container'>
+                        <div className='number_container' key={index}>
                             <i className={number.class}></i>
                             <CountUp end={number.end} redraw={true}>
                                 {({ countUpRef, start }) => (
