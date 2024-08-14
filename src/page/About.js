@@ -8,14 +8,14 @@ const About = () => {
         <div className='about' id='sobre'>
             <h3 className='titleSection'>Sobre Nós</h3>
             <span className='goldenSeparator'></span>
-            <p className='descriptionSection'>
-                Valorizamos a inovação em nossas estratégias legais, adaptando-nos às mudanças
-                <br />
-                no ambiente jurídico para melhor servir nossos clientes.
-            </p>
+            
             <div className='about_Main'>
                 <div className='aboutContainer'>
-                    <p className='aboutContainer_Intro'>Valorizamos justiça, honestidade e tempo. Estamos sempre ao seu serviço, pois nos encarregamos da sua defesa. Qualquer detalhe será notado e pode ser essencial para o seu caso. Durante nosso trabalho, reunimos uma equipe de especialistas dedicados e com vasta experiência em ajuda jurídica.</p>
+
+                    <p className='aboutContainer_Intro'>
+                    Damos valor a inovação em nossas estratégias legais, adaptando-nos às mudanças no ambiente jurídico para melhor servir nossos clientes.
+                <br/><br/>
+                Valorizamos justiça, honestidade e tempo. Estamos sempre ao seu serviço, pois nos encarregamos da sua defesa. Qualquer detalhe será notado e pode ser essencial para o seu caso. Durante nosso trabalho, reunimos uma equipe de especialistas dedicados e com vasta experiência em ajuda jurídica.</p>
                     <div className='about_Wrapper'>
                         {checks.map((checks, index) => {
                             return (
