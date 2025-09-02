@@ -14,7 +14,7 @@ const Footer = () => {
             <div className='footerSeparator'></div>
             <div>
                 <p>
-                    &#169;A Fihr Site
+                    &#169;A Lue Site
                 </p>
             </div>
             <div className='footerSeparator'></div>
